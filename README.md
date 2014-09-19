@@ -10,4 +10,5 @@ All the logic lays down in the https://github.com/demns/FlickrMVC/blob/master/Fl
 Usage examples
 ==============
 example: http://localhost:52495/?id=mark_lj
+
 example: http://localhost:52495/?id=romanulmarius
