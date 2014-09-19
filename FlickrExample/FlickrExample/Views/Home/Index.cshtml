@@ -1,0 +1,13 @@
+﻿@model FlickrNet.PhotoCollection
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Links</h2>
+
+@foreach (var photo in Model) {
+    <a href="@photo.WebUrl">@photo.WebUrl</a>
+    <br />
+}
